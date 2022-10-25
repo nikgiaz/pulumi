@@ -1,0 +1,3 @@
+name: pulumi_presentation
+description: presentation
+runtime: go
