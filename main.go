@@ -119,7 +119,7 @@ var projectLevelConfig = ProjectLevelConfig{
 	DatabaseSubnets:     []string{},
 	RedshiftSubnets:     []string{},
 	Azs:                 []string{},
-	SecondaryCidrBlocks: []string{"10.2.0.0/16", "10.3.0.0/16"},
+	SecondaryCidrBlocks: []string{"10.2.0.0/16"},
 	//List of virtual gateways for propagation
 	DefaultRouteTablePropagatingVgws: []string{},
 	DhcpOptionsDomainNameServers:     []string{"AmazonProvidedDNS"},
